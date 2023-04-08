@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="InfDetector.exe" version="1.0.0.4" publicKeyToken="d9a26b8fd620a298" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="InfDetector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="InfDetector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="InfDetector.exe" size="52704">
+      <assemblyIdentity name="InfDetector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/LK79iBCaWMwqaUD1ySMsYQa8vebVwAPbe5krq02sMc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="InfDetector.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-3FNF0RL\Пашка" issuerKeyHash="f6f89197a1faf5545296365b8e40c21ef5fa0847" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BIP99KLaf89j0m/89HeTDHTJmPlZ+VrmsyX3PpyLFOA=</DigestValue></Reference></SignedInfo><SignatureValue>MJBrE9kn7RIfvPZHScUnmoNmmw+BFuLRqzkNUm0x89RlBfnZs5IY1CVwM7s2rSiEQ3fOCfg5TQ1rKz3gn5UtCqhadYLrWAXvXokWVLQyU8mdkJTBX3FrxA6Ly6bmjT3s3krvBaFPPuxXP7Mz14/eB3+Kp4OpmKjNCt5O4U6Cp7E=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yAoRFFeroUKSz729paQfsD8Giz2sGQXjDITb1LWHtGCaU29YTvC+mS1BBn6BO+qy7rEUdqFkJZHPLY3Nq8MhGTH7Fo1TdcxGDSe8TldSUa4x0dxu0OfPF03QINdkyf8F91m1O8ePQeYF/8BtEMdxABgqPRyOQrAHuQnXtB6dWv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e0148b9c3ef725b3e65af959f998c9740c9377f4fc6fd263cf7fdaa2f4fd8304" Description="" Url=""><as:assemblyIdentity name="InfDetector.exe" version="1.0.0.4" publicKeyToken="d9a26b8fd620a298" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-3FNF0RL\Пашка</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Pys1amhr24uuTkAAERh2QM7F4jsCioXYITR3iOUiAlc=</DigestValue></Reference></SignedInfo><SignatureValue>Le3usna6t908zYo4wkNbhzrz1YLmEQ2cD78qv+4qTmL1cYcd/DWGW6r82qK9vknMIdy+QcMqIY9d6pYS8MPaYcQ+3RDiJaUCFu2L+IfDbMGD6DsKpV95EIFpTSpgRgXKLRqwyjzCgYiEATDmQG4TrE0lOwEcqd9T8lMT/+mrVOc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yAoRFFeroUKSz729paQfsD8Giz2sGQXjDITb1LWHtGCaU29YTvC+mS1BBn6BO+qy7rEUdqFkJZHPLY3Nq8MhGTH7Fo1TdcxGDSe8TldSUa4x0dxu0OfPF03QINdkyf8F91m1O8ePQeYF/8BtEMdxABgqPRyOQrAHuQnXtB6dWv0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQayNfR9ZEuK1Ccns0dkYS7zANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARgBOAEYAMABSAEwAXAQfBDAESAQ6BDAwHhcNMjMwNDA4MjEyNDU0WhcNMjQwNDA4MDMyNDU0WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADMARgBOAEYAMABSAEwAXAQfBDAESAQ6BDAwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMgKERRXq6FCks+9vaWkH7A/Bos9rBkF4wyE29S1h7RgmlNvWE7wvpktQQZ+gTvqsu6xFHahZCWRzy2NzavDIRkx+xaNU3XMRg0nvE5XUlGuMdHcbtDnzxdN0CDXZMn/BfdZtTvHj0HmBf/AbRDHcQAYKj0cjkKwB7kJ17QenVr9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWdRvyxzM1imRSIIAb3jUlW5oeWIvn06//xxKao5cCNlzsY3WEPMkSomRemfHK3uJ/tgXajy1OpO65PO8kzg2+t8QhkbqiwcJQLb8v7s9wp6zeEoSLsIgmx3WB572DbnVk29HMpSGwyT7eF9XSmHqNpm753hx6l1SLTMg3pJKqyQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
